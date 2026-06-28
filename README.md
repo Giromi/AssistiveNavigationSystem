@@ -10,9 +10,6 @@
 |:-----------------------:|:--------------------------------------:|:-------------------------------------:|
 | <img src="https://github.com/user-attachments/assets/afe8502a-fccc-4e25-8a91-b13fa94c9756" height="180"/> | <img src="https://github.com/user-attachments/assets/854f9e1f-e42d-4745-86af-49a692a985f7" height="180"/> | <img src="https://github.com/user-attachments/assets/a6566ff5-a62d-4e67-b6fd-495f4edf45e1" height="180"/> |
 
-
-| Simulated navigation scenarios in Gazebo | Global path planning and trajectory tracking using A* and a discrete PID controller | Deep learning-based tactile paving detection for sidewalk navigation |
-
 ---
 
 ## Project Overview
