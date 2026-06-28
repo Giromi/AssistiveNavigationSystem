@@ -2,7 +2,7 @@
 
 > An assistive robotic navigation system that integrates **ROS1, RGB-D perception, YOLOv5, SLAM, path planning** to support safe navigation for visually impaired pedestrians.
 
----
+
 
 ## Project Highlights
 
@@ -10,7 +10,7 @@
 |:-----------------------:|:--------------------------------------:|:-------------------------------------:|
 | <img src="https://github.com/user-attachments/assets/afe8502a-fccc-4e25-8a91-b13fa94c9756" height="180"/> | <img src="https://github.com/user-attachments/assets/854f9e1f-e42d-4745-86af-49a692a985f7" height="180"/> | <img src="https://github.com/user-attachments/assets/a6566ff5-a62d-4e67-b6fd-495f4edf45e1" height="180"/> |
 
----
+The project integrates **ROS1 Gazebo simulation**, **A*-based path planning with discrete PID trajectory tracking**, and **YOLOv5-based tactile paving detection** into a unified assistive navigation framework for visually impaired pedestrians.
 
 ## Project Overview
 
@@ -18,7 +18,7 @@ The objective of this project is to develop an assistive navigation system capab
 
 The system combines environmental perception, localization, navigation planning, and human-centered voice guidance into a unified robotic framework.
 
----
+
 
 ## System Architecture
 
@@ -49,7 +49,7 @@ ROS Middleware
              └── Navigation Assistance
 ```
 
----
+
 
 ## Methodology
 
@@ -64,7 +64,7 @@ Main components include:
 - Obstacle recognition
 - Environment understanding
 
----
+
 
 ### Object Detection
 
@@ -72,7 +72,6 @@ YOLOv5 is employed to detect tactile paving blocks and surrounding obstacles in 
 
 The detected information assists pedestrian navigation in sidewalk environments.
 
----
 
 ### Localization
 
@@ -80,7 +79,7 @@ SLAM is used to estimate the robot pose while simultaneously constructing an occ
 
 This enables robust localization during autonomous navigation.
 
----
+
 
 ### Navigation
 
@@ -88,7 +87,7 @@ The navigation module generates a global path using the A* algorithm.
 
 A discrete PID controller tracks the generated path while compensating for trajectory deviations during navigation.
 
----
+
 
 ### Human Assistance
 
@@ -100,7 +99,7 @@ Voice feedback includes:
 - Hazard warnings
 - Destination assistance
 
----
+
 
 ## Software Stack
 
@@ -114,7 +113,7 @@ Voice feedback includes:
 | Visualization | RViz, Gazebo |
 | Sensors | RGB-D Camera |
 
----
+
 
 ## Key Contributions
 
@@ -125,7 +124,6 @@ Voice feedback includes:
 - Designed a discrete PID controller for trajectory tracking.
 - Integrated voice guidance for user navigation.
 
----
 
 ## Future Work
 
